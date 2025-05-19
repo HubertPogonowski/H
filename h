@@ -7,6 +7,7 @@ int main() {
     std::cout << "Jak masz na imie, ? ";
     std::getline(std::cin, imie);
 	std::cout<<"NIE/TRAK";
+	std::cout<<"sda";
     std::cout << "Czekaj, " << imie << "!" << std::endl;
     std::cout << "Twoje imie ma " << imie.length() << " znakow." << std::endl;
 
