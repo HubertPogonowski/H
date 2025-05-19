@@ -17,5 +17,6 @@ int main()
     std::cout << "Czekaj, " << imie << "!" << std::endl;
     std::cout << "Twoje imie ma " << imie.length() << " znakow." << std::endl;
 	std::cout<<kal(2);
+	std::cout<<"";
     return 0;
 }
