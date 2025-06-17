@@ -15,7 +15,7 @@
          
              <!-- SonarCloud configuration -->
              <sonar.projectKey>HubertPogonowski_H</sonar.projectKey>
-             <sonar.organization>HubertPogonowski</sonar.organization>
+             <sonar.organization>hubertpogonowski</sonar.organization>
              <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
