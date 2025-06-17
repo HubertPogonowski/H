@@ -5,7 +5,7 @@ public class SomeClass {
     public void test1() {
         int value = 2;
         int value2 = 3;
-        assert value2 + value == 5;
+        assert value2 - value == 5;
     }
 
     @Test
