@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 public class SomeClass {
+
     @Test
     public void test1() {
         int value = 2;
@@ -13,5 +14,14 @@ public class SomeClass {
         int x = 2;
         int y = 3;
         assert x != y;
+    }
+
+    @Test
+    public void testWithEmptyCatch() {
+        try {
+            int a = 1 / 0;
+        } catch (Exception e) {
+            
+        }
     }
 }
