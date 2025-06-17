@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 public class SomeClass {
+
     @Test
     public void test1() {
         int value = 2;
@@ -13,5 +14,20 @@ public class SomeClass {
         int x = 2;
         int y = 3;
         assert x != y;
+    }  
+
+public class DuplicateTest {
+    public void logic1() {
+        int x = 10;
+        int y = 20;
+        int z = x + y;
     }
+
+    public void logic2() {
+        int x = 10;
+        int y = 20;
+        int z = x + y; // duplikacja
+    }
+}
+  
 }
