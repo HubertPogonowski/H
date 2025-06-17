@@ -15,7 +15,7 @@ public class SomeClass {
         int y = 3;
         assert x != y;
     }  
-
+//koment
 public class DuplicateTest {
     public void logic1() {
         int x = 10;
