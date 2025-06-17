@@ -14,5 +14,17 @@ public class SomeClass {
         int x = 2;
         int y = 3;
         assert x != y;
-    }    
+    }  
+
+    public class NewCode {
+    public int doNothing(int a, int b) {
+        if (a == b) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+}
+
+    
 }
