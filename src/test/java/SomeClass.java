@@ -16,18 +16,12 @@ public class SomeClass {
         assert x != y;
     }  
 
-public class DuplicateTest {
-    public void logic1() {
-        int x = 10;
-        int y = 20;
-        int z = x + y;
-    }
-
-    public void logic2() {
-        int x = 10;
-        int y = 20;
-        int z = x + y; // duplikacja
+public class DangerousCode {
+    public void brokenMethod() {
+        int[] x = new int[1];
+        int error = x[2]; // Bug
     }
 }
+
   
 }
