@@ -12,6 +12,6 @@ public class SomeClass {
     public void test2() {
         int x = 2;
         int y = 3;
-        assert x != y;
+        assert x == y;
     }
 }
