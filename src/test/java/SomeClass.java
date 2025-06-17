@@ -14,4 +14,7 @@ public class SomeClass {
         int y = 3;
         assert x != y;
     }
+
+    catch (Exception e) {}
+    
 }
