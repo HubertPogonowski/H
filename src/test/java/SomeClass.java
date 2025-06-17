@@ -7,7 +7,7 @@ public class SomeClass {
         int value2 = 3;
         assert value2 + value == 5;
     }
-
+    //K
     @Test
     public void test2() {
         int x = 2;
