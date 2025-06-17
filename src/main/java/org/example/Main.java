@@ -14,4 +14,13 @@ public class Main {
             System.out.println("i = " + i);
         }
     }
+
+    public class DangerousCode {
+        public void brokenMethod() {
+        int[] arr = new int[1];
+        int fail = arr[2]; // IndexOutOfBounds
+    }
+}
+
+    
 }
