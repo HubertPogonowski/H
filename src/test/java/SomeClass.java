@@ -13,21 +13,7 @@ public class SomeClass {
     public void test2() {
         int x = 2;
         int y = 3;
+        x=x/0;
         assert x != y;
-    }  
-
-public class DuplicateTest {
-    public void logic1() {
-        int x = 10;
-        int y = 20;
-        int z = x + y;
-    }
-
-    public void logic2() {
-        int x = 10;
-        int y = 20;
-        int z = x + y; // duplikacja
-    }
-}
-  
+    }   
 }
